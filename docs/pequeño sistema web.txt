@@ -1,0 +1,99 @@
+Desarrollar un pequeño sistema web, en donde exista un inicio de sesión, un registro, el sistema consiste en lo siguiente, los usuarios se registran, inician sesión y pueden compartir notas, pensamientos y texto en general y también pueden visualizar los pensamientos, textos y demás...
+
+
+
+diseñar una base de datos sencilla, hacer el promt, elegir la fuente, las migraciones y generar la base de datos
+
+---------------------------------------------------------------------------------------------
+
+PROMPT LARAVEL
+
+Necesito desarrollar un pequeño sistema web para compartir pensamientos y notas.
+
+El sistema debe permitir que los usuarios:
+
+Se registren, inicien sesion, cierren sesion, publiquen notas, pensamientos o textos, visualicen las publicaciones de otros usuarios, consulten sus propias publicaciones.
+
+El sistema debe tener una base de datos sencilla con las tablas necesarias
+
+cada publicacion debe tener, usuario que la publico, titulo, contenido, fecha de creación.
+
+TECNOLOGIAS:
+
+Laravel 13, PHP 8.4, SQLite, MVC, Blade, CSS y JavaScript propios.
+
+No utilizar librerias externas de autenticacion.
+
+DISEÑO:
+
+Crear una interfaz sencilla y moderna
+
+
+El sistema debe contar con:
+
+pagina de inicio, registro, inicio de sesión, dashboard, formulario para crear publicaciones, lista de publicaciones, opcion para cerrar sesion.
+
+BASE DE DATOS:
+
+Crear las migraciones necesarias y generar la base de datos SQLite.
+
+Tambien crear un seeder con algunos usuarios y publicaciones de prueba.
+
+ENTREGA:
+
+Desarrollar el proyecto paso a paso en este orden:
+
+1. Estructura de carpetas y archivos.
+2. Diseño de la base de datos.
+3. Migraciones.
+4. Modelos.
+5. Controladores.
+6. Middleware/autenticación.
+7. CSS.
+8. JavaScript.
+9. Vistas Blade.
+10. Rutas.
+11. Seeder.
+12. Instrucciones para ejecutar el proyecto.
+
+El proyecto debe mantenerse pequeño, sencillo y enfocado únicamente en los requisitos solicitados.
+
+
+utiliza esta paleta de colores agrega un modo claro y oscuro:
+
+/* CSS HEX */
+--burnt-rose: #984447ff;
+--icy-blue: #add9f4ff;
+--smart-blue: #476c9bff;
+--pacific-cyan: #468c98ff;
+--ink-black: #101419ff;
+
+
+
+necesito que tenga esta fuente:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+Te dare una imagen del Wireframe pero si quieres cambiar el diseño cámbialo sin problema, también si necesitas agregar mas entidades hazlo sin problema, solo necesito que sea sencillo por el tiempo que nos están brindando.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
